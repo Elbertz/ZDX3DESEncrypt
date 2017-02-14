@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547D7B7B1E52D062003D3111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7B7A1E52D062003D3111 /* main.m */; };
+		547D7B7E1E52D062003D3111 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7B7D1E52D062003D3111 /* AppDelegate.m */; };
+		547D7B811E52D062003D3111 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7B801E52D062003D3111 /* ViewController.m */; };
+		547D7B841E52D062003D3111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547D7B821E52D062003D3111 /* Main.storyboard */; };
+		547D7B861E52D062003D3111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547D7B851E52D062003D3111 /* Assets.xcassets */; };
+		547D7B891E52D062003D3111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547D7B871E52D062003D3111 /* LaunchScreen.storyboard */; };
+		547D7B941E52D063003D3111 /* ZDX3DESEncryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7B931E52D063003D3111 /* ZDX3DESEncryptTests.m */; };
+		547D7B9F1E52D063003D3111 /* ZDX3DESEncryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7B9E1E52D063003D3111 /* ZDX3DESEncryptUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547D7B901E52D063003D3111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547D7B6E1E52D062003D3111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547D7B751E52D062003D3111;
+			remoteInfo = ZDX3DESEncrypt;
+		};
+		547D7B9B1E52D063003D3111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547D7B6E1E52D062003D3111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547D7B751E52D062003D3111;
+			remoteInfo = ZDX3DESEncrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		547D7B761E52D062003D3111 /* ZDX3DESEncrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDX3DESEncrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547D7B7A1E52D062003D3111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		547D7B7C1E52D062003D3111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		547D7B7D1E52D062003D3111 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		547D7B7F1E52D062003D3111 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		547D7B801E52D062003D3111 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		547D7B831E52D062003D3111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547D7B851E52D062003D3111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547D7B881E52D062003D3111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547D7B8A1E52D062003D3111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547D7B8F1E52D062003D3111 /* ZDX3DESEncryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDX3DESEncryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547D7B931E52D063003D3111 /* ZDX3DESEncryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDX3DESEncryptTests.m; sourceTree = "<group>"; };
+		547D7B951E52D063003D3111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547D7B9A1E52D063003D3111 /* ZDX3DESEncryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDX3DESEncryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547D7B9E1E52D063003D3111 /* ZDX3DESEncryptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDX3DESEncryptUITests.m; sourceTree = "<group>"; };
+		547D7BA01E52D063003D3111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547D7B731E52D062003D3111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7B8C1E52D062003D3111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7B971E52D063003D3111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547D7B6D1E52D062003D3111 = {
+			isa = PBXGroup;
+			children = (
+				547D7B781E52D062003D3111 /* ZDX3DESEncrypt */,
+				547D7B921E52D063003D3111 /* ZDX3DESEncryptTests */,
+				547D7B9D1E52D063003D3111 /* ZDX3DESEncryptUITests */,
+				547D7B771E52D062003D3111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547D7B771E52D062003D3111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547D7B761E52D062003D3111 /* ZDX3DESEncrypt.app */,
+				547D7B8F1E52D062003D3111 /* ZDX3DESEncryptTests.xctest */,
+				547D7B9A1E52D063003D3111 /* ZDX3DESEncryptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547D7B781E52D062003D3111 /* ZDX3DESEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				547D7B7C1E52D062003D3111 /* AppDelegate.h */,
+				547D7B7D1E52D062003D3111 /* AppDelegate.m */,
+				547D7B7F1E52D062003D3111 /* ViewController.h */,
+				547D7B801E52D062003D3111 /* ViewController.m */,
+				547D7B821E52D062003D3111 /* Main.storyboard */,
+				547D7B851E52D062003D3111 /* Assets.xcassets */,
+				547D7B871E52D062003D3111 /* LaunchScreen.storyboard */,
+				547D7B8A1E52D062003D3111 /* Info.plist */,
+				547D7B791E52D062003D3111 /* Supporting Files */,
+			);
+			path = ZDX3DESEncrypt;
+			sourceTree = "<group>";
+		};
+		547D7B791E52D062003D3111 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547D7B7A1E52D062003D3111 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		547D7B921E52D063003D3111 /* ZDX3DESEncryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				547D7B931E52D063003D3111 /* ZDX3DESEncryptTests.m */,
+				547D7B951E52D063003D3111 /* Info.plist */,
+			);
+			path = ZDX3DESEncryptTests;
+			sourceTree = "<group>";
+		};
+		547D7B9D1E52D063003D3111 /* ZDX3DESEncryptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				547D7B9E1E52D063003D3111 /* ZDX3DESEncryptUITests.m */,
+				547D7BA01E52D063003D3111 /* Info.plist */,
+			);
+			path = ZDX3DESEncryptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547D7B751E52D062003D3111 /* ZDX3DESEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547D7BA31E52D063003D3111 /* Build configuration list for PBXNativeTarget "ZDX3DESEncrypt" */;
+			buildPhases = (
+				547D7B721E52D062003D3111 /* Sources */,
+				547D7B731E52D062003D3111 /* Frameworks */,
+				547D7B741E52D062003D3111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDX3DESEncrypt;
+			productName = ZDX3DESEncrypt;
+			productReference = 547D7B761E52D062003D3111 /* ZDX3DESEncrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		547D7B8E1E52D062003D3111 /* ZDX3DESEncryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547D7BA61E52D063003D3111 /* Build configuration list for PBXNativeTarget "ZDX3DESEncryptTests" */;
+			buildPhases = (
+				547D7B8B1E52D062003D3111 /* Sources */,
+				547D7B8C1E52D062003D3111 /* Frameworks */,
+				547D7B8D1E52D062003D3111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547D7B911E52D063003D3111 /* PBXTargetDependency */,
+			);
+			name = ZDX3DESEncryptTests;
+			productName = ZDX3DESEncryptTests;
+			productReference = 547D7B8F1E52D062003D3111 /* ZDX3DESEncryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		547D7B991E52D063003D3111 /* ZDX3DESEncryptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547D7BA91E52D063003D3111 /* Build configuration list for PBXNativeTarget "ZDX3DESEncryptUITests" */;
+			buildPhases = (
+				547D7B961E52D063003D3111 /* Sources */,
+				547D7B971E52D063003D3111 /* Frameworks */,
+				547D7B981E52D063003D3111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547D7B9C1E52D063003D3111 /* PBXTargetDependency */,
+			);
+			name = ZDX3DESEncryptUITests;
+			productName = ZDX3DESEncryptUITests;
+			productReference = 547D7B9A1E52D063003D3111 /* ZDX3DESEncryptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547D7B6E1E52D062003D3111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Elbert;
+				TargetAttributes = {
+					547D7B751E52D062003D3111 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					547D7B8E1E52D062003D3111 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 547D7B751E52D062003D3111;
+					};
+					547D7B991E52D063003D3111 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 547D7B751E52D062003D3111;
+					};
+				};
+			};
+			buildConfigurationList = 547D7B711E52D062003D3111 /* Build configuration list for PBXProject "ZDX3DESEncrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547D7B6D1E52D062003D3111;
+			productRefGroup = 547D7B771E52D062003D3111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547D7B751E52D062003D3111 /* ZDX3DESEncrypt */,
+				547D7B8E1E52D062003D3111 /* ZDX3DESEncryptTests */,
+				547D7B991E52D063003D3111 /* ZDX3DESEncryptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547D7B741E52D062003D3111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D7B891E52D062003D3111 /* LaunchScreen.storyboard in Resources */,
+				547D7B861E52D062003D3111 /* Assets.xcassets in Resources */,
+				547D7B841E52D062003D3111 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7B8D1E52D062003D3111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7B981E52D063003D3111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547D7B721E52D062003D3111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D7B811E52D062003D3111 /* ViewController.m in Sources */,
+				547D7B7E1E52D062003D3111 /* AppDelegate.m in Sources */,
+				547D7B7B1E52D062003D3111 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7B8B1E52D062003D3111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D7B941E52D063003D3111 /* ZDX3DESEncryptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7B961E52D063003D3111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D7B9F1E52D063003D3111 /* ZDX3DESEncryptUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547D7B911E52D063003D3111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547D7B751E52D062003D3111 /* ZDX3DESEncrypt */;
+			targetProxy = 547D7B901E52D063003D3111 /* PBXContainerItemProxy */;
+		};
+		547D7B9C1E52D063003D3111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547D7B751E52D062003D3111 /* ZDX3DESEncrypt */;
+			targetProxy = 547D7B9B1E52D063003D3111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		547D7B821E52D062003D3111 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547D7B831E52D062003D3111 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547D7B871E52D062003D3111 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547D7B881E52D062003D3111 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547D7BA11E52D063003D3111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547D7BA21E52D063003D3111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547D7BA41E52D063003D3111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDX3DESEncrypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fff.ZDX3DESEncrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		547D7BA51E52D063003D3111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDX3DESEncrypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fff.ZDX3DESEncrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		547D7BA71E52D063003D3111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDX3DESEncryptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fff.ZDX3DESEncryptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDX3DESEncrypt.app/ZDX3DESEncrypt";
+			};
+			name = Debug;
+		};
+		547D7BA81E52D063003D3111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDX3DESEncryptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fff.ZDX3DESEncryptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDX3DESEncrypt.app/ZDX3DESEncrypt";
+			};
+			name = Release;
+		};
+		547D7BAA1E52D063003D3111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDX3DESEncryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fff.ZDX3DESEncryptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZDX3DESEncrypt;
+			};
+			name = Debug;
+		};
+		547D7BAB1E52D063003D3111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDX3DESEncryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fff.ZDX3DESEncryptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZDX3DESEncrypt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547D7B711E52D062003D3111 /* Build configuration list for PBXProject "ZDX3DESEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D7BA11E52D063003D3111 /* Debug */,
+				547D7BA21E52D063003D3111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547D7BA31E52D063003D3111 /* Build configuration list for PBXNativeTarget "ZDX3DESEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D7BA41E52D063003D3111 /* Debug */,
+				547D7BA51E52D063003D3111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		547D7BA61E52D063003D3111 /* Build configuration list for PBXNativeTarget "ZDX3DESEncryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D7BA71E52D063003D3111 /* Debug */,
+				547D7BA81E52D063003D3111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		547D7BA91E52D063003D3111 /* Build configuration list for PBXNativeTarget "ZDX3DESEncryptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D7BAA1E52D063003D3111 /* Debug */,
+				547D7BAB1E52D063003D3111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547D7B6E1E52D062003D3111 /* Project object */;
+}
