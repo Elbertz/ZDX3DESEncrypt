@@ -16,8 +16,8 @@
 #include <openssl/hmac.h>
 
 
-#define ZDX_MD5_PREFIX @"99999999"
-#define ZDX_SHA256_DIGEST @"5tS3kdeUhfTtV8CtI22fPQ=="
+#define ZDX_MD5_PREFIX @"12345678"
+#define ZDX_SHA256_DIGEST @"S3kd22ffTtVPeUh8Ct5tIQ=="
 
 @implementation enc3DESEngine
 
@@ -66,7 +66,7 @@
 - (NSString *)encryptByZDX3DESWithStr:(NSString *)originalStr andKey:(NSString *)keyStr{
     
     //originalStr = @"20926330$5911EEF940F1FBED17F0D9F5237FA632$13454100609$012418006421650$259AF220-1975-4E9D-8605-EAF69521F21B$259AF220-1975-4E9D-8605-EAF69521F21B$$Reserved$CTC";
-    keyStr = @"13454100609;751386";
+    keyStr = @"13442521309;123456";
     
     
     NSData *key = [self getSafeKeyWithContent:keyStr];
